@@ -12,7 +12,7 @@ Most of the connect four code is from this [Kaggle Learn course, Intro to Game A
 
 Running this code requires a GPU in practice. Training the agent (`model.learn(total_timesteps=80000)`) takes 15m with a GPU. Using a CPU would take 100-1000x times longer.
 
-The connect four code from the Kaggle Learn course uses the PPO1 algorithm from the stable_baselines library. (`model = PPO1(CustomCnnPolicy, vec_env, verbose=0)`)
+The connect four code from the Kaggle Learn course uses the PPO1 algorithm from the stable_baselines library. (`model = PPO1(CustomCnnPolicy, vec_env, verbose=0)`). [More info about PPO](https://openai.com/blog/openai-baselines-ppo/).
 
 The libraries in this code are locked to old versions.
 
