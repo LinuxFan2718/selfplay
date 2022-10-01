@@ -2,7 +2,7 @@
 
 ## Kaggle Learn course
 
-Most of the connect four code is from this [Kaggle Learn course](Intro to Game AI and Reinforcement Learning).
+Most of the connect four code is from this [Kaggle Learn course, Intro to Game AI and Reinforcement Learning](https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning)
 
 Running this code requires a GPU in practice. Training the agent (`model.learn(total_timesteps=80000)`) takes 15m with a GPU. Using a CPU would take 100-1000x times longer.
 
